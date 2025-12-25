@@ -1,0 +1,43 @@
+{
+  "name": "react-native-minimal-toast",
+  "version": "1.0.0",
+  "description": "A minimal, Expo-friendly toast component for React Native",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "toast",
+    "notification",
+    "ui",
+    "react-native-toast",
+    "toast-notification",
+    "snackbar",
+    "alert",
+    "message"
+  ],
+  "author": "Sajjan Karn",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sajjankarna/react-native-minimal-toast.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sajjankarna/react-native-minimal-toast/issues"
+  },
+  "homepage": "https://github.com/sajjankarna/react-native-minimal-toast#readme",
+  "peerDependencies": {
+    "react": ">=18",
+    "react-native": ">=0.70"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.7",
+    "typescript": "^5.9.3"
+  }
+}
