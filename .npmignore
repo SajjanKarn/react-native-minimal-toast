@@ -1,3 +1,8 @@
 src
 node_modules
 tsconfig.json
+example
+.github
+CONTRIBUTING.md
+CHANGELOG.md
+*.tgz
